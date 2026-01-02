@@ -1,6 +1,6 @@
 # 이 워크플로의 이름
 # GitHub Actions 탭에서 보이는 이름이다
-name: git-action-tutorial
+name: hyojin-workflows-name
 
 # 워크플로가 언제 실행될지 정의하는 부분 (트리거)
 on:
@@ -12,7 +12,7 @@ on:
 jobs:
   # job 이름 (아무 이름이나 가능)
   # 하나의 가상머신에서 실행되는 작업 단위
-  pikacu-git-action-basic-test:
+  hyojin-jobs-name:
     # job을 실행할 환경
     # GitHub에서 제공하는 Ubuntu 가상머신을 사용
     runs-on: ubuntu-latest
